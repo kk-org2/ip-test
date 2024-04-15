@@ -1,0 +1,14 @@
+on:
+    workflow_dispatch: 
+    push:
+
+jobs:
+    j1:
+        runs-on: kodekloud
+        steps:
+            - run: echo 123
+ 
+    j2:
+        runs-on: killershell
+        steps:
+            - run: echo 123
